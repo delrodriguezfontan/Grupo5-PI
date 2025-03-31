@@ -1,0 +1,20 @@
+/* selectores de etiqueta */
+/* header */
+
+.header{
+    display: flex;
+    display: block;
+    width: 70%;
+    height: 50px
+    
+    
+}
+
+.logo{
+   display: flex;
+
+}
+
+.nav{
+   display: flex;
+}
