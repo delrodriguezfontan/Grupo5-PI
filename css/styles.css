@@ -6,14 +6,15 @@
    margin-left: 40px;
    margin-right: 40px;
 }
-
+a,body, header {
+   text-decoration: none;
+   color: white;
+}
 .header{
     display: flex;
     display: block;
     border: 30px;
-    border-color: #ffffff;
-   
-    
+    border-color: #ff0000;
 
 }
 
