@@ -11,11 +11,10 @@
     display: flex;
     display: block;
     border: 30px;
-    border-color: #ffffff;
-   
-    
+    border-color: #ff0000;
 
 }
+
 
 .logo{
    display: block;
