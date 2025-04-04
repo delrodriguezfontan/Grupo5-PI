@@ -5,19 +5,20 @@
    background-color: black;
    margin-left: 40px;
    margin-right: 40px;
+   list-style: none;
 }
-
-.header{
+a,body, header {
+   text-decoration: none;
+   color: white;
+   
+}
+.header1{
     display: flex;
-    display: block;
-    border: 30px;
-    border-color: #ff0000;
+   
 
 }
-
 
 .logo{
-   display: block;
    display: flex;
    height: 70px;
    width: 70px;
@@ -31,23 +32,16 @@
 
 .nav{
    display: flex;
-   list-style: none;
-   justify-content: center;
-   justify-content: space-around;
-   color: #ffffff;
    font-family: sans-serif;
-   align-items: center;
-
-
+   
 
 }
 
 .search{
-   display: block;
    display: flex;
-   justify-content: flex-end;
-   align-items: flex-start;
-   margin-right: 200px;
+   justify-content: right;
+   margin-top: 10px;
+
 }
 
 
@@ -55,8 +49,19 @@
    color:#a7a3a3;
    font-family: sans-serif;
    font-size: 13px;
-
+   justify-content: right;
+   align-items: top;
+   display: flex; 
    
+}
+
+.footer{
+   font-size: 17px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   display: flex;
+   justify-content: center;
+   color: #c5254a; 
+   text-emphasis-color: #000;
    
 }
 
