@@ -17,7 +17,7 @@ body {
     margin-right: 200px;
 }
 #header{
-   display:flex;
+   width: 100%;
 }
 
 .logo{
@@ -30,16 +30,6 @@ body {
 }
 
 
-.nav{
-   display: flex;
-   list-style: none;
-   justify-content: center;
-   justify-content: space-around;
-   color: #ffffff;
-   font-family: sans-serif;
-   align-items: center;
-}
-
 
 .barra{
    display: flex;
@@ -48,6 +38,24 @@ body {
    align-content: center;
    justify-content: center;
    align-items: center;
+}
+.nav {
+   display: flex;
+       align-content: center;
+       flex-direction: row-reverse;
+       flex-wrap: wrap;
+       justify-content: space-around;
+       align-items: center;
+}
+.nav1{
+   display:flex;
+   flex-direction: row;
+    list-style: none;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+li {
+   margin: 10px;
 }
 .link{
    color:#a7a3a3;
@@ -58,9 +66,10 @@ body {
    flex-wrap:wrap;
    align-items: center;
    justify-content: flex-end;
-   
 }
-
+.lr{
+   margin: 10px;
+}
 .cuerpo{
    display: flex;
     flex-direction: row;
@@ -88,5 +97,37 @@ body {
    align-items: center;
 }
 .img{
-   width: 80%;
+   width: 200px;
+   height: 300px;
+}
+.imgdetalles{
+   width: 500px;
+   display: flex;
+   justify-self: center;
+}
+.detalles {
+   display: flex;
+       align-self: center;
+       flex-direction: column;
+       flex-wrap: wrap;
+       align-content: center;
+       justify-content: center;
+       align-items: center;
+}
+.detail{
+   display: flex;
+    align-self: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+#maindetalles{
+   display: flex;
+   flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
