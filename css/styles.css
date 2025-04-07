@@ -76,7 +76,7 @@ li {
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 .peli{
    width: 20%;
