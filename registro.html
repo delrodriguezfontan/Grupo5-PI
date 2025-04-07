@@ -7,41 +7,50 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <main>
-        <div>
-           <label>Introduzca nombre completo</label>
-           <input type="text" name="text" id="" placeholder="Nombre completo">
+    <main id="mainregister">
+
+        <section class="register">
+                <h2>¡REGISTRATE!</h2>
+        </section>
+
+        <section id="formr">
+             <div class="nombre">
+                 <label>Introduzca nombre completo</label>
+                 <input type="text" name="text" value="" placeholder="Nombre completo">
    
-       </div>
-       <div>
-        <label>Introduzca su apellido</label>
-        <input type="text" name="text" id="" placeholder="Apellido">
+             </div>
+       
+             <div class="apellido">
+                 <label>Introduzca su apellido</label>
+                 <input type="text" name="text" value="" placeholder="Apellido">
 
-    </div>
+             </div>
    
-    <div>
-        <label>¿Cuántos años tiene?</label>
-        <input type="number" name="edad" value="" placeholder="Edad">
-    </div>
+             <div class="edad">
+                 <label>¿Cuántos años tiene?</label>
+                 <input type="number" name="edad" value="" placeholder="Edad">
+             </div>
 
-    <div>
-        <label>Género: </label>
-        <input type="radio" name="genero" value="Masculino"> Masculino
-        <input type="radio" name="genero" value="Femenino"> Femenino
-        <input type="radio" name="genero" value="Prefiero no decirlo"> Prefiero no decirlo
-    </div>
+             <div class="genero">
+                 <label>Género: </label>
+                 <input type="radio" name="genero" value="Masculino"> Masculino
+                 <input type="radio" name="genero" value="Femenino"> Femenino
+                 <input type="radio" name="genero" value="Prefiero no decirlo"> Prefiero no decirlo
+             </div>
 
-    <div>
-            <label>Introduzca su correo electrónico</label>
-            <input type="email" name="correo" value="" placeholder="Correo electrónico">
-       </div>
+             <div class="correo">
+                 <label>Introduzca su correo electrónico</label>
+                 <input type="email" name="correo" value="" placeholder="Correo electrónico">
+            </div>
  
-        <div>
-            <button type="submit">Registrarme</button>
-        </div>  
+             <div class="botonR">
+                 <button class="botonregister" type="submit" style="background-color: red;">Registrarme</button>
+             </div>  
+    </section>
         
-<footer>
-    <h4>Justina Bazterrica y Delfina Rodriguez Fontan</h4>
+<footer id="footer">
+    <h4>Justina Bazterrica  | Delfina Rodriguez Fontan</h4>
 </footer>
+     </main>
 </body>
 </html>

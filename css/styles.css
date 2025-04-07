@@ -1,5 +1,6 @@
 /* selectores de etiqueta */
-/* header */
+/* configuraciones predeterminadas de la web */
+
 a{
    text-decoration: none;
    color: white;
@@ -16,6 +17,17 @@ body {
     margin-left: 200px;
     margin-right: 200px;
 }
+
+#footer{
+   display: flex;
+   align-items: bottom;
+   font-family: sans-serif;
+   align-self: bottom;
+   font-size: 13px;
+   color: #959595;
+}
+
+/* header */
 #header{
    width: 100%;
 }
@@ -70,6 +82,8 @@ li {
 .lr{
    margin: 10px;
 }
+
+/* main */
 .cuerpo{
    display: flex;
     flex-direction: row;
@@ -100,6 +114,8 @@ li {
    width: 200px;
    height: 300px;
 }
+
+/* css de detalle de película y serie */
 .imgdetalles{
    width: 500px;
    display: flex;
@@ -131,3 +147,124 @@ li {
     justify-content: center;
     align-items: center;
 }
+
+
+
+/* css de Login */
+#mainlogin{
+   display: flex;
+   font-family: sans-serif;
+   flex-direction: column;
+   margin: 15px;
+
+}
+.login{
+   display: flex;
+   color: #ff0000;
+   justify-content: center;
+
+}
+
+.forml{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 15px;
+}
+
+.usuarioL{
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+
+.user{
+   display: flex;
+   justify-content: center;
+}
+
+.usuario{
+   display: flex;
+   margin: 10px;
+
+}
+
+.contraseñaL{
+   margin-top: 15px;
+   margin-bottom: 15px;
+
+}
+
+.contraseña{
+   display: flex;
+   margin: 10px;
+}
+
+.contraseñalogin{
+   display: flex;
+   justify-content: center;
+}
+   
+.botonL{
+   display: flex;
+   justify-content: center;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   
+}
+
+.botonlogin{
+   color: #ffffff;
+
+}
+
+/* css de register */
+#mainregister{
+   display: flex;
+   font-family: sans-serif;
+   flex-direction: column;
+   margin: 15px;
+}
+
+.register{
+   display: flex;
+   color: #ff0000;
+   justify-content: center;
+
+}
+
+.formr{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 15px;
+}
+
+
+
+
+
+
+
+
+.botonR{
+   display: flex;
+   justify-content: center;
+   margin-top: 15px;
+   margin-bottom: 15px;
+
+}
+
+.botonregister{
+   color: #ffffff;
+}
+
+
+  
+
+
+
+
+
+
+
+
