@@ -111,8 +111,8 @@ li {
    align-items: center;
 }
 .img{
-   width: 200px;
-   height: 300px;
+   width: 150px;
+   height: 200px;
 }
 
 /* css de detalle de película y serie */
@@ -258,9 +258,45 @@ li {
    color: #ffffff;
 }
 
-
+/* adaptacion a celular */
   
-
+@media (max-width:450px) {
+   body{
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      margin-left: 0px;
+      margin-right: 0px;
+   }
+   header{
+      width: 100%;
+   }
+   .nav1{
+      display: flex;
+      flex-direction: column;
+   }
+   main{
+      display: flex;
+      flex-direction: column;
+   }
+   .cuerpo {
+      display: flex;
+      flex-direction: column;}
+   .img{
+      width: 400px;
+      height: auto;
+   }
+   .peli{
+      width: 100%;
+   }
+   .serie{
+      width: 100%;
+   }
+   .imgdetalles{
+      width: 400px;
+   }
+}
 
 
 
