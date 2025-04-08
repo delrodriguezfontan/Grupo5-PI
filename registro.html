@@ -13,40 +13,26 @@
                 <h2>¡REGISTRATE!</h2>
         </section>
 
-        <section id="formr">
-             <div class="nombre">
-                 <label class="nombre2">Introduzca nombre completo</label>
-                 <input class="nombre3" type="text" name="text" value="" placeholder="Nombre completo">
+        <form class="form">
+            <div class="fr"><label >Introduzca nombre completo</label> </div>
+            <div class="fr"><input" type="text" name="text" value="" placeholder="Nombre completo"></div>
+            
+            <div class="fr"><label>Introduzca su apellido</label></div>
+            <div class="fr"><input type="text" name="text" value="" placeholder="Apellido"></div>
    
-             </div>
-       
-             <div class="apellido">
-                 <label class="apellido2">Introduzca su apellido</label>
-                 <input class="apellido3" type="text" name="text" value="" placeholder="Apellido">
+            <div class="fr"><label >¿Cuántos años tiene?</label></div>
+            <div class="fr"><input type="number" name="edad" value="" placeholder="Edad"></div>
+            
+            <div class="fr"> <label>Género: </label></div>
+            <div class="fr"><samp>Masculino</samp><input type="radio" name="genero" value="masculino"></div>
+            <div class="fr"><samp>Femenino</samp><input type="radio" name="genero" value="Femenino"></div>
+            <div class="fr"><samp>Prefiero no decirlo</samp><input  type="radio" name="genero" value="Prefiero no decirlo"></div>
 
-             </div>
-   
-             <div class="edad">
-                 <label class="edad2">¿Cuántos años tiene?</label>
-                 <input class="edad3" type="number" name="edad" value="" placeholder="Edad">
-             </div>
-
-             <div class="genero">
-                 <label class="genero2">Género: </label>
-                 <input class="opciongenero" type="radio" name="genero" value="Masculino"><p id="masculino">Masculino</p>
-                 <input class="opciongenero"type="radio" name="genero" value="Femenino"> Femenino
-                 <input class="opciongenero" type="radio" name="genero" value="Prefiero no decirlo"> Prefiero no decirlo
-             </div>
-
-             <div class="correo">
-                 <label class="correo2">Introduzca su correo electrónico</label>
-                 <input class="correo3" type="email" name="correo" value="" placeholder="Correo electrónico">
-            </div>
+            <div class="fr"><label >Introduzca su correo electrónico</label></div>
+            <div class="fr"><input  type="email" name="correo" value="" placeholder="Correo electrónico"></div>
  
-             <div class="botonR">
-                 <button class="botonregister" type="submit" style="background-color: red;">Registrarme</button>
-             </div>  
-    </section>
+            <div class="fr"><button class="botonregister" type="submit" style="background-color: red;">Registrarme</button></div>  
+        </form>
 </main>
 <footer id="footer">
     <h4>Justina Bazterrica  | Delfina Rodriguez Fontan</h4>
