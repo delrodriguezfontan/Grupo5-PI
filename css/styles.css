@@ -5,6 +5,9 @@ a{
    text-decoration: none;
    color: white;
 }
+ul {
+   list-style: none;
+}
 body {
    color: white;
    display: flex;
@@ -17,7 +20,9 @@ body {
     margin-left: 200px;
     margin-right: 200px;
 }
-
+main {
+   width: 100%;
+}
 #footer{
    display: flex;
    align-items: bottom;
@@ -220,6 +225,35 @@ li {
    color: #ffffff;
 
 }
+/* css genero*/
+.generotitulo{
+   display: flex;
+   align-self: flex-start;
+}
+.generos {
+   display: flex;
+   flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.listado {
+   width: 100%;
+   display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.g {
+   display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
 
 /* css de register */
 #mainregister{
@@ -246,16 +280,6 @@ li {
 .fr{
    margin: 5px;
 }
-
-.botonR{
-   display: flex;
-   justify-content: center;
-   margin-top: 15px;
-   margin-bottom: 15px;
-
-}
-
-
 .botonregister{
    color: #ffffff;
 }
