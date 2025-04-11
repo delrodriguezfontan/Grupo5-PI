@@ -17,10 +17,10 @@ body {
     justify-content: center;
     align-items: center;
     background-color: black;
-    margin-left: 200px;
-    margin-right: 200px;
+    padding: 0px 100px;
+    margin: 0;
 }
-main {
+main{
    width: 100%;
 }
 #footer{
@@ -38,6 +38,8 @@ main {
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
+   height: 150px;
+  
 }
 
 .logo{
@@ -46,7 +48,7 @@ main {
    width: 70px;
    justify-content: center;
    align-items: center;
-   margin-top: 20px;
+ 
 }
 
 
@@ -101,6 +103,8 @@ li {
     align-items: flex-start;
 
 }
+ 
+
 .peli{
    width: 20%;
    display: flex;
@@ -109,6 +113,7 @@ li {
    flex-wrap: wrap;
    justify-content: center;
    align-items: center;
+   
 }
 .serie{
    width: 20%;
@@ -116,20 +121,18 @@ li {
    flex-direction: column;
    align-content: center;
    flex-wrap: wrap;
-   justify-content: center;
+   justify-content: flex-start;
    align-items: center;
 }
 .img{
-   width: 225px;
-   height: 300px;
+   width: 200px;
 }
 
 
 /* css de detalle de película y serie */
 .imgdetalles{
    width: 500px;
-   display: flex;
-   justify-self: center;
+
 }
 .detalles {
    display: flex;
@@ -234,7 +237,10 @@ li {
 .botonlogin{
    color: #ffffff;
 }
-
+/*search results*/
+.oculto {
+   display: none;
+}
 /* css genero*/
 .generotitulo{
    display: flex;
@@ -286,6 +292,7 @@ li {
     align-content: center;
     justify-content: center;
     align-items: center;
+    margin: 5px;
 }
 
 .form{
