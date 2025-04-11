@@ -120,9 +120,10 @@ li {
    align-items: center;
 }
 .img{
-   width: 150px;
-   height: 200px;
+   width: 225px;
+   height: 300px;
 }
+
 
 /* css de detalle de película y serie */
 .imgdetalles{
@@ -182,10 +183,15 @@ li {
    margin: 15px;
 }
 
-#emailL{
+.emailL{
    margin-top: 15px;
    margin-bottom: 15px;
-   
+   display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .email{
@@ -200,7 +206,7 @@ li {
 
 }
 
-#contraseñaL{
+.contraseñaL{
    margin-top: 15px;
    margin-bottom: 15px;
 
@@ -216,22 +222,17 @@ li {
    justify-content: center;
 }
    
-#botonL{
+.botonL{
    display: flex;
    justify-content: center;
    margin-top: 15px;
    margin-bottom: 15px;
-   
+   font-size: 13px;
+   text-decoration: underline;
 }
 
 .botonlogin{
    color: #ffffff;
-}
-
-#botonL{
-   font-size: 13px;
-   text-decoration: underline;
-
 }
 
 /* css genero*/
@@ -278,6 +279,14 @@ li {
    justify-content: center;
 
 }
+.emailr{
+   display: flex;
+   flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
 
 .form{
    display: flex;
@@ -288,9 +297,6 @@ li {
 }
 .fr{
    margin: 5px;
-}
-.botonregister{
-   color: #ffffff;
 }
 
 .termycond{
