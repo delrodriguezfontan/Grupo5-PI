@@ -42,16 +42,24 @@
         </section>
 
         <form class="form">
-            <div class="fr"><label >Introduzca nombre completo</label> </div>
-            <div class="fr"><input type="text" name="text" value="" placeholder="Nombre completo"></div>
-            
-            <div class="fr"><label>Introduzca su apellido</label></div>
-            <div class="fr"><input type="text" name="text" value="" placeholder="Apellido"></div>
             <div class="fr"><label >Introduzca su correo electrónico</label></div>
             <div class="fr"><input  type="email" name="correo" value="" placeholder="Correo electrónico"></div>
- 
-            <div class="fr"><button class="botonregister" type="submit" style="background-color: red;">Registrarme</button></div>  
-        </form>
+            
+            <div id="contraseñaL">
+                <label class="contraseñalogin">Crea tu contraseña:</label>
+                <input class="contraseña" type="password" name="contraseña" value="" placeholder="contraseña...">
+            </div>
+
+            <div>
+                <label class="termycond">Acepto los Términos y Condiciones</label>
+                <input type="checkbox" name="checkbox" id="">
+            </div>
+        <div class="fr"><button class="botonregister" type="submit" style="background-color: red;"><a href="./login.html">Registrarme</a></button></div>  
+        
+        <div id="botonL">
+            <a href="./login.html">Ya tengo una cuenta</a>
+         </div>
+    </form>
 </main>
 <footer id="footer">
     <h4>Justina Bazterrica  | Delfina Rodriguez Fontan</h4>

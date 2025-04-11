@@ -165,6 +165,7 @@ li {
    font-family: sans-serif;
    flex-direction: column;
    margin: 15px;
+   
 
 }
 .login{
@@ -181,23 +182,25 @@ li {
    margin: 15px;
 }
 
-.usuarioL{
+#emailL{
    margin-top: 15px;
    margin-bottom: 15px;
+   
 }
 
-.user{
+.email{
    display: flex;
    justify-content: center;
 }
 
-.usuario{
+.correo{
    display: flex;
    margin: 10px;
+   
 
 }
 
-.contraseñaL{
+#contraseñaL{
    margin-top: 15px;
    margin-bottom: 15px;
 
@@ -213,7 +216,7 @@ li {
    justify-content: center;
 }
    
-.botonL{
+#botonL{
    display: flex;
    justify-content: center;
    margin-top: 15px;
@@ -223,8 +226,14 @@ li {
 
 .botonlogin{
    color: #ffffff;
+}
+
+#botonL{
+   font-size: 13px;
+   text-decoration: underline;
 
 }
+
 /* css genero*/
 .generotitulo{
    display: flex;
@@ -282,6 +291,10 @@ li {
 }
 .botonregister{
    color: #ffffff;
+}
+
+.termycond{
+   font-size: 14px;
 }
 
 /* adaptacion a celular */
