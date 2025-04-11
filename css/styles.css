@@ -12,13 +12,13 @@ body {
    color: white;
    display: flex;
    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    padding: 0px 100px;
-    margin: 0;
+   flex-wrap: wrap;
+   align-content: center;
+   justify-content: center;
+   align-items: center;
+   background-color: black;
+   padding: 0px 100px;
+   margin: 0;
 }
 main{
    width: 100%;
@@ -51,8 +51,6 @@ main{
  
 }
 
-
-
 .barra{
    display: flex;
    flex-direction: row;
@@ -63,18 +61,19 @@ main{
 }
 .nav {
    display: flex;
-       align-content: center;
-       flex-direction: row-reverse;
-       flex-wrap: wrap;
-       justify-content: space-around;
-       align-items: center;
+   align-content: center;
+   flex-direction: row-reverse;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
 }
 .nav1{
+   list-style-type: none;
    display:flex;
    flex-direction: row;
-    list-style: none;
-    color: #ffffff;
-    font-family: sans-serif;
+   list-style: none;
+   color: #ffffff;
+   font-family: sans-serif;
 }
 li {
    margin: 10px;
@@ -96,11 +95,11 @@ li {
 /* main */
 .cuerpo{
    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: flex-start;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-content: center;
+   justify-content: center;
+   align-items: flex-start;
 
 }
  
@@ -136,29 +135,29 @@ li {
 }
 .detalles {
    display: flex;
-       align-self: center;
-       flex-direction: column;
-       flex-wrap: wrap;
-       align-content: center;
-       justify-content: center;
-       align-items: center;
+   align-self: center;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-content: center;
+   justify-content: center;
+   align-items: center;
 }
 .detail{
    display: flex;
-    align-self: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+   align-self: center;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-content: center;
+   justify-content: center;
+   align-items: center;
 }
 #maindetalles{
    display: flex;
    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+   flex-wrap: wrap;
+   align-content: center;
+   justify-content: center;
+   align-items: center;
 }
 
 
@@ -190,11 +189,11 @@ li {
    margin-top: 15px;
    margin-bottom: 15px;
    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-content: center;
+   justify-content: center;
+   align-items: center;
 }
 
 .email{
@@ -249,26 +248,26 @@ li {
 .generos {
    display: flex;
    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
 }
 .listado {
    width: 100%;
    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-content: center;
+   align-items: center;
+   justify-content: center;
 }
 .g {
    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-content: center;
+   justify-content: center;
+   align-items: center;
 }
 
 /* css de register */
@@ -288,11 +287,11 @@ li {
 .emailr{
    display: flex;
    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    margin: 5px;
+   flex-wrap: wrap;
+   align-content: center;
+   justify-content: center;
+   align-items: center;
+   margin: 5px;
 }
 
 .form{
