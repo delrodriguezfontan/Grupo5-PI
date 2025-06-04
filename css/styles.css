@@ -100,7 +100,7 @@ li {
    flex-wrap: wrap;
    align-content: center;
    justify-content: center;
-   align-items: center;
+   align-items: flex-start;
 
 }
  
@@ -118,6 +118,7 @@ li {
 }
 .img{
    width: 200px;
+   height: 300px;
    border-radius: 10px;
 }
 
@@ -125,6 +126,7 @@ li {
 /* css de detalle de película y serie */
 .imgdetalles{
    width: 300px;
+   
    border-radius: 20px;
 
 }
