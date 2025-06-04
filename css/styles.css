@@ -221,12 +221,27 @@ li {
    text-decoration: underline;
 }
 
-.botonlogin{
-   color: #ffffff;
+.boton{
+   color:rgb(255, 255, 255);
+   background-color: #ff0000;
 }
 /*search results*/
 .oculto {
    display: none;
+}
+.encontrados {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-content: center;
+   justify-content: center;
+   align-items: center;
+}
+.textofound {
+   display:block
+}
+.error {
+   width: 500px;
 }
 /* css genero*/
 .generotitulo{
