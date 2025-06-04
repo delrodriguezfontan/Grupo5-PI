@@ -7,29 +7,34 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header id="header">
+     <header id="header">
         <nav class="nav">
             <section class= "link">
                 <article class="search">
                     <form action="./search-results.html" method="get">
-                        <input type="search" name="text" value="" placeholder="Buscar...">
+                        <input type="search" name="Buscar" value="" placeholder="Buscar...">
                         <button type="submit">Buscar</button>
+                        <br>
+                            <label for="mov"> </label>
+                                <input type="radio"  id="mov"  name="type" value="movie" checked> Movies
+                                <input type="radio" name="type" value="series"> Series
+                        
                     </form>
                 </article>
                 <article class="lr">
-                    <a   href="./login.html" style="text-decoration: none;">Login</a>
+                    <a   href="./login.html">Login</a>
                 </article>
                 <article class="lr"> 
-                    <a  href="./registro.html" style="text-decoration: none;">Register</a>
+                    <a  href="./registro.html">Register</a>
                 </article>
             </section>
             <section class="barra">
-                <img class="logo" src="./img/logo.png" alt="logo">
+                <a href="./index.html"><img class="logo" src="./img/logo.png" alt="logo"></a>
 
                 <ul class="nav1">
-                    <li><a href="./index.html" style="text-decoration: none;" >HOME</a></li>
-                    <li><a href="./moviegenres.html" style="text-decoration: none;"> GENEROS PELICULAS</a></li>
-                    <li><a href="./seriesgenres.html" style="text-decoration: none;">GENEROS SERIES</a></li>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./moviegenres.html">GENEROS PELICULAS</a></li>
+                    <li><a href="./seriesgenres.html">GENEROS SERIES</a></li>
                 </ul>
 
             </section>
@@ -38,17 +43,6 @@
     <main id="maindetalles">
         <h2>Detalles</h2>
          <section class="detalles">
-            <img src="./img/harry potter.jpg" alt="" class="imgdetalles">
-            <article class="detail">
-                <h3>Harry Potter y La Piedra Filosofal</h3>
-                <ul>
-                    <li>Calificación: 4/5</li>
-                    <li>Fecha de estreno: 29 de noviembre de 2001</li>
-                    <li>Duracion: 2h 32m </li>
-                    <li>Sinopsis: El día en que cumple once años, Harry Potter descubre que es hijo de dos conocidos hechiceros, de los que ha heredado poderes mágicos. Deberá acudir entonces a una famosa escuela de magia y hechicería: Howards.</li>
-                    <li>Genero: <a href="./detail-genres.html">Fantasia</a></li>
-                </ul>
-            </article>
          </section>
     </main>
     <footer id="footer">
