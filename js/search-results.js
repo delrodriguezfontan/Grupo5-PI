@@ -8,6 +8,7 @@ let peliculas = queryObj.get("movies");
 let oculto = document.querySelector(".oculto");
 let encontrado = document.querySelector(".encontrado");
 let texto = document.querySelector(".textofound")
+let cargando = document.querySelector(".cargando");
 
 console.log(buscar);
 
@@ -80,4 +81,8 @@ if (peliculas) {
         .catch(function (error) {
             console.log("Error: " + error);
         });
+} else {
+    oculto.style.display = "block";
+    encontrado.style.display = "none";
+    cargando.style.display = "none";
 }
