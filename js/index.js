@@ -41,7 +41,7 @@ fetch(url2)
     cuerpos.innerHTML +=
     ` 
     <article class="articulo">
-        <a href="./detail-serie.html?id=${element.id}"><img src= "https://image.tmdb.org/t/p/w500/${element.poster_path}" alt="${element.name}" class="img">
+        <a href="./detail-tv.html?id=${element.id}"><img src= "https://image.tmdb.org/t/p/w500/${element.poster_path}" alt="${element.name}" class="img">
         <h3 class="titulos">${element.name}</h3>
         <p class="fecha">(${element.first_air_date})</p></a>
     </article>`

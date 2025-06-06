@@ -16,7 +16,7 @@ fetch(url)
     for (let i = 0; i < data.genres.length; i++) {
         const element = data.genres[i];
         console.log(element.name);
-        generos+= `<a href="./detail-genres.html?id=${element.id}"> ${element.name} </a>`
+        generos+= `<a href="./detail-genres.html?id=${element.id}&nombreGenero=${element.name}&tipo=movie"> ${element.name} </a>`
         
     }
     selector.innerHTML = `
