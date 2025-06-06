@@ -230,7 +230,7 @@ li {
    display: none;
 }
 .encontrados {
-   display: flex;
+   display: none;
    flex-direction: column;
    flex-wrap: wrap;
    align-content: center;

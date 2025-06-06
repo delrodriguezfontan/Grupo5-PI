@@ -84,7 +84,7 @@ if (peliculas) {
             console.log("Error: " + error);
         });
 } else {
-    oculto.style.display = "block";
+    oculto.style.display = "flex";
     encontrado.style.display = "none";
     cargando.style.display = "none";
 }
