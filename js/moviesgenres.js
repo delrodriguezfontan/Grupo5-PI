@@ -1,23 +1,23 @@
-let queryString = location.search;
-let queryObjeto = new URLSearchParams(queryString);
-let getName = queryObjeto.get("id");
+let detalles = document.querySelector(".generos")
+let lista = document.querySelector (".listado")
 
-
-let apiKey = "https://api.themoviedb.org/3/genre/movie/list?api_key=7af9e68f00d96b306cc0ab2e52ceaf9c";
-
-fetch(apiKey)
-.then(function(response) {
-    return response.json()
+let url = "https://api.themoviedb.org/3/genre/movie/list?api_key=7af9e68f00d96b306cc0ab2e52ceaf9c";
+fetch(url)
+.then (function (response) {
+    return response.json(); 
   })
-  .then(function(data){let container = document.querySelector(".listado");
-    let genres = data.genres; 
-
-    for (let i = 0; i < genres.length; i++) {
-        let genre = genres[i];
-        container.innerHTML += ``;
-
-    }})
-    .catch(function(error) {
-        console.log("Error: " + error);
-      })
+.then (function (data) {
+   let info = data.genres
+  console.log(info);
+  for (let i = 0; i < info.length; i++) {
+    const element = info[i];
+    console.log(element)
+    lista.innerHTML += `
+        <li class=g><a href="./detail-genres.html?id=${element.id}&nombreGenero=${element.name}&tipo=movie">${element.name}</li></a>`
+    
+  }
+  })
+  .catch(function(error) {
+  console.log("Error: " + error);
+})
     

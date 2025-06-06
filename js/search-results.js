@@ -43,6 +43,7 @@ if (peliculas) {
                 encontrado.innerHTML = allCharacters;
                 oculto.style.display = "none";
                 encontrado.style.display = "flex";
+                cargando.style.display = "none";
             }
         })
         .catch(function (error) {
@@ -76,13 +77,14 @@ if (peliculas) {
                 encontrado.innerHTML = allCharacters;
                 oculto.style.display = "none";
                 encontrado.style.display = "flex";
+                cargando.style.display = "none";
             }
         })
         .catch(function (error) {
             console.log("Error: " + error);
         });
 } else {
-    oculto.style.display = "block";
+    oculto.style.display = "flex";
     encontrado.style.display = "none";
     cargando.style.display = "none";
 }
