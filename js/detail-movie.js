@@ -2,7 +2,7 @@ let queryString = location.search;
 let queryObj = new URLSearchParams(queryString);
 let id = queryObj.get("id");
 
-let url = "https://api.themoviedb.org/3/movie/popular?api_key=7af9e68f00d96b306cc0ab2e52ceaf9c"; 
+let url = `https://api.themoviedb.org/3/movie/${id}?api_key=7af9e68f00d96b306cc0ab2e52ceaf9c`; 
 
 fetch(url)
 .then(function(response) {

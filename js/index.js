@@ -53,7 +53,8 @@ fetch(url2)
 
 
 // cambiar los textos de la pagina principal de lo nuevo de peliculas//
-fetch(url1)
+let url3 = "https://api.themoviedb.org/3/movie/upcoming?api_key=7af9e68f00d96b306cc0ab2e52ceaf9c";
+fetch(url3)
 .then (function (response) {
     return response.json(); 
   })

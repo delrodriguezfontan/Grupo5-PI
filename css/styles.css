@@ -240,8 +240,16 @@ li {
 .textofound {
    display:block
 }
-.error {
-   width: 500px;
+.cargando {
+   display: flex;
+   flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+.imgerror {
+   width: 300px;
 }
 /* css genero*/
 .generotitulo{
