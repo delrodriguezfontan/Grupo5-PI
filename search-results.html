@@ -12,13 +12,12 @@
             <section class= "link">
                 <article class="search">
                     <form action="./search-results.html" method="get">
-                        <input type="search" name="Buscar" value="" placeholder="Buscar...">
+                        <input type="search" name="buscar" value="" placeholder="Buscar...">
                         <button type="submit">Buscar</button>
                         <br>
                             <label for="mov"> </label>
-                                <input type="radio"  id="mov"  name="type" value="movie" checked> Movies
-                                <input type="radio" name="type" value="series"> Series
-                        
+                                <input type="radio" name="movies" value="movie"> Peliculas
+                                <input type="radio" name="series" value="series"> Series
                     </form>
                 </article>
                 <article class="lr">
@@ -42,8 +41,9 @@
     </header>
     <main>
         <h2 class="oculto">Articulo no encontrado</h2>
-        <section class="cuerpo">
-            <h2 class="encontrado"></h2>
+        <h2 class="textofound"></h2>
+        <section class="cuerpo encontrado">
+
         </section>
     </main>
     <footer id="footer">
