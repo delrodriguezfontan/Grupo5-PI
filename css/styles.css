@@ -272,6 +272,7 @@ li {
    align-items: center;
    justify-content: center;
 }
+
 .g {
    display: flex;
    flex-direction: column;
@@ -279,6 +280,7 @@ li {
    align-content: center;
    justify-content: center;
    align-items: center;
+    margin: 10px;
 }
 
 /* css de register */

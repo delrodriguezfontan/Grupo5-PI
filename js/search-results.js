@@ -43,6 +43,7 @@ if (peliculas) {
                 encontrado.innerHTML = allCharacters;
                 oculto.style.display = "none";
                 encontrado.style.display = "flex";
+                cargando.style.display = "none";
             }
         })
         .catch(function (error) {
@@ -76,6 +77,7 @@ if (peliculas) {
                 encontrado.innerHTML = allCharacters;
                 oculto.style.display = "none";
                 encontrado.style.display = "flex";
+                cargando.style.display = "none";
             }
         })
         .catch(function (error) {
